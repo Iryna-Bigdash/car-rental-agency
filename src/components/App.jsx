@@ -1,8 +1,8 @@
-import { BrowserRouter } from "react-router-dom";
+// import { BrowserRouter } from "react-router-dom";
 
 export const App = () => {
   return (
-    <BrowserRouter basename="/react-template">
+    // <BrowserRouter basename="/react-template">
     <div
       style={{
         height: '100vh',
@@ -15,6 +15,6 @@ export const App = () => {
     >
       React template
     </div>
-    </BrowserRouter>
+    // </BrowserRouter>
   );
 };
