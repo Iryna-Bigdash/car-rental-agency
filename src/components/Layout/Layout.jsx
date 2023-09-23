@@ -1,11 +1,21 @@
-import { Container } from "./Layout.styled"
+import { Outlet } from 'react-router-dom';
+import { Container } from './Layout.styled';
+import { GlobalStyle } from 'components/GlobalStyle';
+import { Header } from 'components/Header/Header';
 
-export const Layout = ({ children }) => {
-    return(
+export const Layout = () => {
+  return (
+    <>
+      <header>
+        <Header />
+      </header>
+      <main>
         <Container>
-            <header></header>
-            <main>{children}</main>
-            <footer></footer>
+          <Outlet />
         </Container>
-    )
-}
+      </main>
+      <footer></footer>
+      <GlobalStyle />
+    </>
+  );
+};

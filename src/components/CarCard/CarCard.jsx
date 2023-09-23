@@ -67,7 +67,7 @@ export const CarCard = ({
         <Description>{mileage}</Description>
         <Description>{functionalities[0]}</Description>
       </DescriptionList>
-      <Link key={id} to={`${id}`} type='button'>
+      <Link key={id} to={`${id}`}>
       <Button type="button" label="Learn more" onClick={openModal}>
         Learn more
       </Button>
