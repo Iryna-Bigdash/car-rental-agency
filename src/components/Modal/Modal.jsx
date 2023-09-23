@@ -1,7 +1,8 @@
 import { useParams } from 'react-router-dom';
-import { Backdrop, Container } from './Modal.styled';
+import { Backdrop, Close, Container } from './Modal.styled';
 import { CarInfo } from 'components/CarInfo/CarInfo';
 import { getCarById } from 'fakeAPI';
+import { HiXMark } from "react-icons/hi2";
 
 const Modal = ({ onClose }) => {
     const { carId } = useParams();
@@ -12,7 +13,7 @@ const Modal = ({ onClose }) => {
   return (
     <Backdrop>
       <Container>
-        <button type='button' >Close</button>
+        <Close type='button'><HiXMark size={24}/></Close>
         <CarInfo  car={car}/>
       </Container>
     </Backdrop>

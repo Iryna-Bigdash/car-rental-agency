@@ -15,11 +15,28 @@ top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
 max-width: 541px;
-min-height: 752px;
 width: 100%;
-padding: 16px;
 background-color: white;
 border-radius: 24px;
+`
+
+export const Close = styled.button`
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 16px;
+  margin-right: 16px;
+  padding: 0;
+  background: none;
+  border: none;
+
+  svg {
+    stroke: #121417;
+    stroke-opacity: 0.8;
+    stroke-width: 1.5px;
+  }  
 `
 
 

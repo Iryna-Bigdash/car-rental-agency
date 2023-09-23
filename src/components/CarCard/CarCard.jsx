@@ -16,7 +16,6 @@ import {
 import Modal from 'components/Modal/Modal';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { CarInfo } from 'components/CarInfo/CarInfo';
 
 export const CarCard = ({
   item: {
