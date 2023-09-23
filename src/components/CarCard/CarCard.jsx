@@ -13,9 +13,14 @@ import {
   Title,
   TitleThumb,
 } from './CarCard.styled';
+import Modal from 'components/Modal/Modal';
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
+import { CarInfo } from 'components/CarInfo/CarInfo';
 
 export const CarCard = ({
   item: {
+    id,
     img,
     description,
     rentalPrice,
@@ -29,12 +34,16 @@ export const CarCard = ({
     functionalities,
   },
 }) => {
-  const imageSrc = img || placeholderImage;
+  const [isOpen, setIsOpen] = useState(false);
 
+  const imageSrc = img || placeholderImage;
   const addressParts = address.split(', ');
   const city = addressParts[1].trim();
   const country = addressParts[2].trim();
   const carType = rentalCompany.split(' ')[0];
+
+  const openModal = () => setIsOpen(true);
+  const closeModal = () => {setIsOpen(false); console.log("Close")};
 
   return (
     <Section>
@@ -59,9 +68,17 @@ export const CarCard = ({
         <Description>{mileage}</Description>
         <Description>{functionalities[0]}</Description>
       </DescriptionList>
-      <Button type="button" label="Learn more">
+      <Link key={id} to={`${id}`} type='button'>
+      <Button type="button" label="Learn more" onClick={openModal}>
         Learn more
       </Button>
+      </Link>
+      {isOpen && (
+        <Modal
+        isOpen={isOpen}
+        onClose={closeModal}
+        />
+      )}
     </Section>
   );
 };
