@@ -1,38 +1,50 @@
 import { NavLink } from 'react-router-dom';
 import {
-    HeaderContainer,
-    Logo,
-    LogoThumb,
-    MainNav,
-  } from './Header.style';
-  import logo from '../../assets/images/logo.png';
+  HeaderContainer,
+  Logo,
+  LogoThumb,
+  MainNav,
+  NavContainer,
+} from './Header.style';
+import logo from '../../assets/images/logo.png';
+import Switcher from 'components/Switcher';
+import { styled } from 'styled-components';
 
-  const linkStyles = {
-    fontWeight: '800',
-    color: 'blue',
-    fontSize: "20px",
-    textDecoration: 'none',
+const StyledLink = styled(NavLink)`
+  font-weight: 800;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+
+  &.active {
+    color: #fad833;
   }
+`;
 
-export const Header =()=>{
-    return(
-        <HeaderContainer>
-        <NavLink to="/">
-          <LogoThumb>
-            <Logo src={logo} />
-          </LogoThumb>
-          </NavLink>
-          <MainNav>
-            <li>
-              <NavLink to="/" style={linkStyles}>Home</NavLink>
-            </li>
-            <li>
-              <NavLink to="/catalog" style={linkStyles}>Catalog</NavLink>
-            </li>
-            <li>
-              <NavLink to="/favorites" style={linkStyles}>Favorites</NavLink>
-            </li>
-          </MainNav>
-        </HeaderContainer>
-    )
-}
+export const Header = () => {
+  return (
+    <HeaderContainer>
+      <NavLink to="/">
+        <LogoThumb>
+          <Logo src={logo} loading="lazy" />
+        </LogoThumb>
+      </NavLink>
+      <NavContainer>
+        <MainNav>
+          <li>
+            <StyledLink to="/">Home</StyledLink>
+          </li>
+          <li>
+            <StyledLink to="/catalog">Catalog</StyledLink>
+          </li>
+          <li>
+            <StyledLink to="/favorites">Favorites</StyledLink>
+          </li>
+        </MainNav>
+        <div>
+          <Switcher />
+        </div>
+      </NavContainer>
+    </HeaderContainer>
+  );
+};

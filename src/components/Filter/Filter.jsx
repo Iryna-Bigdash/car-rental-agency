@@ -8,7 +8,6 @@ export const Filter = ({ data }) => {
     mileageTo: '',
   };
 
-  // Use state to store the filter values
   const [filters, setFilters] = useState(initialValues);
 
   const brands = [...new Set(data.map(item => item.make))];
