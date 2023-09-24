@@ -2,9 +2,10 @@ import styled from 'styled-components';
 
 export const Form = styled.form`
 margin: 0 auto;
+margin-top: 25px;
 display: flex;
-width: 859px;
+justify-content: space-between;
+align-items: center;
 height: 74px;
-text-align: center;
-margin-bottom: 50px; 
+outline: 1px solid red;
 `

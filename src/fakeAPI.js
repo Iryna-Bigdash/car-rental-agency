@@ -21,7 +21,7 @@ const cars = [
         ],
         "rentalPrice": "$40",
         "rentalCompany": "Luxury Car Rentals",
-        "address": "123 Example Street, Zhytomyr, Ukraine",
+        "address": "123 Example Street, Kyiv, Ukraine",
         "rentalConditions": "Minimum age: 25\nValid driver's license\nSecurity deposit required",
         "mileage": 5858
     },
@@ -41,12 +41,12 @@ const cars = [
             "Head-up display"
         ],
         "functionalities": [
-            "Intel safety features",
+            "Safety features",
             "Pilot Assist semi-autonomous driving",
             "Four-zone automatic climate control"
         ],
         "rentalPrice": "$50",
-        "rentalCompany": "Premium Auto Rentals",
+        "rentalCompany": "Premium Auto Rent",
         "address": "456 Example Avenue, Lviv, Ukraine",
         "rentalConditions": "Minimum age: 21\nValid driver's license\nProof of insurance required",
         "mileage": 5352
@@ -67,7 +67,7 @@ const cars = [
             "Hands-free power tailgate"
         ],
         "functionalities": [
-            "Safety avoidance technology",
+            "Avoidance technology",
             "Pilot Assist with adaptive cruise control",
             "9-inch Sensus touchscreen infotainment system"
         ],
@@ -98,7 +98,7 @@ const cars = [
             "Tire pressure monitoring system"
         ],
         "rentalPrice": "$55",
-        "rentalCompany": "Premium Car Rentals",
+        "rentalCompany": "Premium Rental",
         "address": "321 Example Road, Kharkiv, Ukraine",
         "rentalConditions": "Minimum age: 25\nValid driver's license\nSecurity deposit required",
         "mileage": 4771
@@ -171,7 +171,7 @@ const cars = [
             "Rear-seat entertainment system"
         ],
         "functionalities": [
-            "Intelligent 4x4 system",
+            "Intel 4x4 system",
             "Advanced Drive-Assist Display",
             "Nissan Intelligent Key with push-button ignition"
         ],
@@ -228,7 +228,7 @@ const cars = [
             "Advanced safety features"
         ],
         "rentalPrice": "$45",
-        "rentalCompany": "Premium Car Rentals",
+        "rentalCompany": "Premium Car Rent",
         "address": "789 Example Square, Dnipro, Ukraine",
         "rentalConditions": "Minimum age: 25\nValid driver's license\nSecurity deposit required",
         "mileage": 4989
@@ -254,7 +254,7 @@ const cars = [
             "LED headlights"
         ],
         "rentalPrice": "$25",
-        "rentalCompany": "Economy Car Rentals",
+        "rentalCompany": "Economy Rentals",
         "address": "456 Example Lane, Lutsk, Ukraine",
         "rentalConditions": "Minimum age: 21\nValid driver's license\nCredit card required",
         "mileage": 4591
@@ -275,12 +275,12 @@ const cars = [
             "MINI Connected infotainment system"
         ],
         "functionalities": [
-            "Front-Wheel Drive",
-            "Dynamic Stability Control",
+            "Front-Wheel",
+            "Dynamic Control",
             "Rain-sensing wipers"
         ],
         "rentalPrice": "$30",
-        "rentalCompany": "Fun Car Rentals",
+        "rentalCompany": "Premium Car",
         "address": "234 Example Place, Vinnytsia, Ukraine",
         "rentalConditions": "Minimum age: 21\nValid driver's license\nProof of insurance required",
         "mileage": 6275
@@ -327,12 +327,12 @@ const cars = [
             "Active Body Control suspension"
         ],
         "functionalities": [
-            "Rear-Wheel Drive",
+            "Rear-Wheel",
             "Retractable hardtop roof",
             "Multi-contour seats"
         ],
         "rentalPrice": "$75",
-        "rentalCompany": "Exquisite Car Rentals",
+        "rentalCompany": "Premium Auto",
         "address": "789 Example Boulevard, Kyiv, Ukraine",
         "rentalConditions": "Minimum age: 25\nValid driver's license\nSecurity deposit and proof of insurance required",
         "mileage": 5722
@@ -353,12 +353,12 @@ const cars = [
             "Bridge of Weir leather upholstery"
         ],
         "functionalities": [
-            "Rear-Wheel Drive",
+            "Rear-Wheel",
             "Carbon-fiber body panels",
             "Adaptive Damping System"
         ],
         "rentalPrice": "$200",
-        "rentalCompany": "Supreme Car Rentals",
+        "rentalCompany": "Fun Car Rentals",
         "address": "123 Example Avenue, Odessa, Ukraine",
         "rentalConditions": "Minimum age: 30\nValid driver's license\nSecurity deposit and insurance required",
         "mileage": 6464
@@ -379,7 +379,7 @@ const cars = [
             "Sport suspension"
         ],
         "functionalities": [
-            "Rear-Wheel Drive",
+            "Rear-Wheel",
             "Limited-slip differential",
             "High-performance exhaust"
         ],
@@ -405,7 +405,7 @@ const cars = [
             "Lamborghini Infotainment System"
         ],
         "functionalities": [
-            "All-Wheel Drive",
+            "All-Wheel",
             "Electronic Stability Control",
             "Retractable soft-top roof"
         ],
@@ -483,7 +483,7 @@ const cars = [
             "Performance suspension"
         ],
         "functionalities": [
-            "Rear-Wheel Drive",
+            "Rear-Wheel",
             "Limited-slip differential",
             "Power-operated convertible top"
         ],
@@ -497,7 +497,7 @@ const cars = [
         "id": 20,
         "year": 2006,
         "make": "Mercedes-Benz",
-        "model": "SLK-Class",
+        "model": "SLK",
         "type": "Convertible",
         "img": "https://res.cloudinary.com/ditdqzoio/image/upload/v1687252635/cars/mercedes_slk_class.jpg",
         "description": "The Mercedes-Benz SLK-Class is a luxurious and sporty convertible that offers a perfect balance of style, performance, and refinement, delivering an enjoyable open-top driving experience.",
@@ -509,7 +509,7 @@ const cars = [
             "Magic Sky Control panoramic roof"
         ],
         "functionalities": [
-            "Rear-Wheel Drive",
+            "Rear-Wheel",
             "Dynamic Stability Control",
             "Retractable hardtop roof"
         ],
@@ -535,7 +535,7 @@ const cars = [
             "Blind Spot Monitoring"
         ],
         "functionalities": [
-            "Front-Wheel Drive",
+            "Front-Wheel",
             "Electronic Stability Control",
             "Power sliding side doors"
         ],
@@ -639,195 +639,12 @@ const cars = [
             "Automatic climate control"
         ],
         "functionalities": [
-            "Front-Wheel Drive",
+            "Front-Wheel",
             "Electronic Stability Control",
             "Rearview camera"
         ],
         "rentalPrice": "$50",
         "rentalCompany": "Premium Rentals",
-        "address": "321 Example Lane, Kharkiv, Ukraine",
-        "rentalConditions": "Minimum age: 21\nValid driver's license\nSecurity deposit and insurance required",
-        "mileage": 6234
-    },
-    {
-        "id": 26,
-        "year": 2020,
-        "make": "Kia",
-        "model": "Rio",
-        "type": "Sedan, Hatchback",
-        "img": "https://res.cloudinary.com/ditdqzoio/image/upload/v1687252635/cars/kia_rio_sedan_hatchback.jpg",
-        "description": "The Kia Rio is a versatile and fuel-efficient vehicle available in both sedan and hatchback body styles, offering a comfortable cabin, modern features, and a smooth driving experience, making it an attractive choice for urban commuters.",
-        "fuelConsumption": "6.2",
-        "engineSize": "1.6L 4-cylinder",
-        "accessories": [
-            "Apple CarPlay and Android Auto integration",
-            "Smart Key with Push Button Start",
-            "Automatic climate control"
-        ],
-        "functionalities": [
-            "Front-Wheel Drive",
-            "Electronic Stability Control",
-            "Rearview camera"
-        ],
-        "rentalPrice": "$50",
-        "rentalCompany": "Economy Rentals",
-        "address": "321 Example Lane, Kharkiv, Ukraine",
-        "rentalConditions": "Minimum age: 21\nValid driver's license\nSecurity deposit and insurance required",
-        "mileage": 6234
-    },
-    {
-        "id": 27,
-        "year": 2020,
-        "make": "Kia",
-        "model": "Rio",
-        "type": "Sedan, Hatchback",
-        "img": "https://res.cloudinary.com/ditdqzoio/image/upload/v1687252635/cars/kia_rio_sedan_hatchback.jpg",
-        "description": "The Kia Rio is a versatile and fuel-efficient vehicle available in both sedan and hatchback body styles, offering a comfortable cabin, modern features, and a smooth driving experience, making it an attractive choice for urban commuters.",
-        "fuelConsumption": "6.2",
-        "engineSize": "1.6L 4-cylinder",
-        "accessories": [
-            "Apple CarPlay and Android Auto integration",
-            "Smart Key with Push Button Start",
-            "Automatic climate control"
-        ],
-        "functionalities": [
-            "Front-Wheel Drive",
-            "Electronic Stability Control",
-            "Rearview camera"
-        ],
-        "rentalPrice": "$50",
-        "rentalCompany": "Economy Rentals",
-        "address": "321 Example Lane, Kharkiv, Ukraine",
-        "rentalConditions": "Minimum age: 21\nValid driver's license\nSecurity deposit and insurance required",
-        "mileage": 6234
-    },
-    {
-        "id": 28,
-        "year": 2020,
-        "make": "Kia",
-        "model": "Rio",
-        "type": "Sedan, Hatchback",
-        "img": "https://res.cloudinary.com/ditdqzoio/image/upload/v1687252635/cars/kia_rio_sedan_hatchback.jpg",
-        "description": "The Kia Rio is a versatile and fuel-efficient vehicle available in both sedan and hatchback body styles, offering a comfortable cabin, modern features, and a smooth driving experience, making it an attractive choice for urban commuters.",
-        "fuelConsumption": "6.2",
-        "engineSize": "1.6L 4-cylinder",
-        "accessories": [
-            "Apple CarPlay and Android Auto integration",
-            "Smart Key with Push Button Start",
-            "Automatic climate control"
-        ],
-        "functionalities": [
-            "Front-Wheel Drive",
-            "Electronic Stability Control",
-            "Rearview camera"
-        ],
-        "rentalPrice": "$50",
-        "rentalCompany": "Economy Rentals",
-        "address": "321 Example Lane, Kharkiv, Ukraine",
-        "rentalConditions": "Minimum age: 21\nValid driver's license\nSecurity deposit and insurance required",
-        "mileage": 6234
-    },
-    {
-        "id": 29,
-        "year": 2020,
-        "make": "Kia",
-        "model": "Rio",
-        "type": "Sedan, Hatchback",
-        "img": "https://res.cloudinary.com/ditdqzoio/image/upload/v1687252635/cars/kia_rio_sedan_hatchback.jpg",
-        "description": "The Kia Rio is a versatile and fuel-efficient vehicle available in both sedan and hatchback body styles, offering a comfortable cabin, modern features, and a smooth driving experience, making it an attractive choice for urban commuters.",
-        "fuelConsumption": "6.2",
-        "engineSize": "1.6L 4-cylinder",
-        "accessories": [
-            "Apple CarPlay and Android Auto integration",
-            "Smart Key with Push Button Start",
-            "Automatic climate control"
-        ],
-        "functionalities": [
-            "Front-Wheel Drive",
-            "Electronic Stability Control",
-            "Rearview camera"
-        ],
-        "rentalPrice": "$50",
-        "rentalCompany": "Classic Car Rentals",
-        "address": "321 Example Lane, Kharkiv, Ukraine",
-        "rentalConditions": "Minimum age: 21\nValid driver's license\nSecurity deposit and insurance required",
-        "mileage": 6234
-    },
-    {
-        "id": 30,
-        "year": 2020,
-        "make": "Kia",
-        "model": "Rio",
-        "type": "Sedan, Hatchback",
-        "img": "https://res.cloudinary.com/ditdqzoio/image/upload/v1687252635/cars/kia_rio_sedan_hatchback.jpg",
-        "description": "The Kia Rio is a versatile and fuel-efficient vehicle available in both sedan and hatchback body styles, offering a comfortable cabin, modern features, and a smooth driving experience, making it an attractive choice for urban commuters.",
-        "fuelConsumption": "6.2",
-        "engineSize": "1.6L 4-cylinder",
-        "accessories": [
-            "Apple CarPlay and Android Auto integration",
-            "Smart Key with Push Button Start",
-            "Automatic climate control"
-        ],
-        "functionalities": [
-            "Front-Wheel Drive",
-            "Electronic Stability Control",
-            "Rearview camera"
-        ],
-        "rentalPrice": "$50",
-        "rentalCompany": "Classic Car Rentals",
-        "address": "321 Example Lane, Kharkiv, Ukraine",
-        "rentalConditions": "Minimum age: 21\nValid driver's license\nSecurity deposit and insurance required",
-        "mileage": 6234
-    }
-    ,
-    {
-        "id": 31,
-        "year": 2020,
-        "make": "Kia",
-        "model": "Rio",
-        "type": "Sedan, Hatchback",
-        "img": "https://res.cloudinary.com/ditdqzoio/image/upload/v1687252635/cars/kia_rio_sedan_hatchback.jpg",
-        "description": "The Kia Rio is a versatile and fuel-efficient vehicle available in both sedan and hatchback body styles, offering a comfortable cabin, modern features, and a smooth driving experience, making it an attractive choice for urban commuters.",
-        "fuelConsumption": "6.2",
-        "engineSize": "1.6L 4-cylinder",
-        "accessories": [
-            "Apple CarPlay and Android Auto integration",
-            "Smart Key with Push Button Start",
-            "Automatic climate control"
-        ],
-        "functionalities": [
-            "Front-Wheel Drive",
-            "Electronic Stability Control",
-            "Rearview camera"
-        ],
-        "rentalPrice": "$50",
-        "rentalCompany": "Economy Rentals",
-        "address": "321 Example Lane, Kharkiv, Ukraine",
-        "rentalConditions": "Minimum age: 21\nValid driver's license\nSecurity deposit and insurance required",
-        "mileage": 6234
-    },
-    {
-        "id": 32,
-        "year": 2020,
-        "make": "Kia",
-        "model": "Rio",
-        "type": "Sedan, Hatchback",
-        "img": "https://res.cloudinary.com/ditdqzoio/image/upload/v1687252635/cars/kia_rio_sedan_hatchback.jpg",
-        "description": "The Kia Rio is a versatile and fuel-efficient vehicle available in both sedan and hatchback body styles, offering a comfortable cabin, modern features, and a smooth driving experience, making it an attractive choice for urban commuters.",
-        "fuelConsumption": "6.2",
-        "engineSize": "1.6L 4-cylinder",
-        "accessories": [
-            "Apple CarPlay and Android Auto integration",
-            "Smart Key with Push Button Start",
-            "Automatic climate control"
-        ],
-        "functionalities": [
-            "Front-Wheel Drive",
-            "Electronic Stability Control",
-            "Rearview camera"
-        ],
-        "rentalPrice": "$50",
-        "rentalCompany": "Premium Car Rentals",
         "address": "321 Example Lane, Kharkiv, Ukraine",
         "rentalConditions": "Minimum age: 21\nValid driver's license\nSecurity deposit and insurance required",
         "mileage": 6234

@@ -1,10 +1,18 @@
 import styled from 'styled-components';
 
 export const HeaderContainer = styled.div`
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  right: 0;
   padding: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-bottom: 1px solid white;
   background: rgb(255, 255, 255);
   background: linear-gradient(
     90deg,

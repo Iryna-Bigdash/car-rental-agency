@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
+import { Form } from './Filter.styled';
 
-export const Filter = ({ data }) => {
+export const Filter = ({ data, onSubmit }) => {
   const initialValues = {
     brand: '',
     price: '',
@@ -17,25 +18,27 @@ export const Filter = ({ data }) => {
     ),
   ].sort((a, b) => a - b);
 
-  // const mileagesFrom = [
-  //   ...new Set(data.map(item => parseFloat(item.mileage.replace(/\D/g, '')))),
-  // ];
-
   const handleChange = (e) => {
     e.preventDefault();
     const { name, value } = e.target;
-    // Update the filter values when an input changes
     setFilters({ ...filters, [name]: value });
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(filters);
+    onSubmit(filters);
+
+    reset();
   };
 
+  const reset = () => {
+    setFilters(initialValues)
+  }
+
   return (
-    <form name="filter" onSubmit={handleSubmit}>
-      <label>Car brand</label>
+    <Form name="filter" onSubmit={handleSubmit}>
+      <label>Car brand
       <select name="brand" onChange={handleChange} value={filters.brand}>
         <option value="">Enter the text</option>
         {brands.map((brand) => (
@@ -44,6 +47,7 @@ export const Filter = ({ data }) => {
           </option>
         ))}
       </select>
+      </label>
 
       <label>
         Price/ 1 hour
@@ -75,6 +79,6 @@ export const Filter = ({ data }) => {
         />
       </label>
       <button type="submit">Search</button>
-    </form>
+    </Form>
   );
 };

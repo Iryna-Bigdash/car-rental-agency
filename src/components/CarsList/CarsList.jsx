@@ -1,14 +1,23 @@
 import PropTypes from 'prop-types';
 import { CarCard } from '../CarCard/CarCard';
 import { Item, List } from './CarsList.styled';
+import { useState } from 'react';
 
 export const CarsList = ({ cars }) => {
+  const [activeCardInd, setActiveCardInd] = useState(null);
+
+  const setActiveInd = (index) => {
+    setActiveCardInd(index);
+  };
 
   return (
     <List>
-      {cars.map(car => {
+      {cars.map((car, index )=> {
         return (
-          <Item key={car.id}>
+          <Item key={car.id}
+          className={index === activeCardInd ? 'active' : ''}
+          onMouseMove={() => setActiveInd(index)}
+          >
             <CarCard item={car} />
           </Item>
         );
