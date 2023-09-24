@@ -1,15 +1,23 @@
 {
   "files": {
-    "main.css": "/car-rental-agency/static/css/main.7cda0caf.css",
-    "main.js": "/car-rental-agency/static/js/main.b6c53cb1.js",
+    "main.css": "/car-rental-agency/static/css/main.367de800.css",
+    "main.js": "/car-rental-agency/static/js/main.c841770a.js",
     "static/media/car-rental-placeholder.jpg": "/car-rental-agency/static/media/car-rental-placeholder.ecd7127def48ff7dbcf5.jpg",
+    "static/media/banner.jpg": "/car-rental-agency/static/media/banner.6b07cc316eb22c2b5964.jpg",
+    "static/media/Montserrat-SemiBold.ttf": "/car-rental-agency/static/media/Montserrat-SemiBold.93b37a465fc4ec0d0415.ttf",
+    "static/media/Montserrat-Regular.ttf": "/car-rental-agency/static/media/Montserrat-Regular.24785cc015b27a3e964b.ttf",
+    "static/media/PlayfairDisplay-Medium.ttf": "/car-rental-agency/static/media/PlayfairDisplay-Medium.b6b10a3a3492328a0c3f.ttf",
     "static/media/logo.png": "/car-rental-agency/static/media/logo.91efd6217ae8f17ac831.png",
+    "static/media/Manrope-SemiBold.ttf": "/car-rental-agency/static/media/Manrope-SemiBold.310f108cc524df0e5ffc.ttf",
+    "static/media/Manrope-Medium.ttf": "/car-rental-agency/static/media/Manrope-Medium.08894ccb04665d1a9d53.ttf",
+    "static/media/Manrope-Regular.ttf": "/car-rental-agency/static/media/Manrope-Regular.a9b9e09fe6b69741f316.ttf",
+    "static/media/DancingScript-Medium.ttf": "/car-rental-agency/static/media/DancingScript-Medium.8a269a5e44015996cd27.ttf",
     "index.html": "/car-rental-agency/index.html",
-    "main.7cda0caf.css.map": "/car-rental-agency/static/css/main.7cda0caf.css.map",
-    "main.b6c53cb1.js.map": "/car-rental-agency/static/js/main.b6c53cb1.js.map"
+    "main.367de800.css.map": "/car-rental-agency/static/css/main.367de800.css.map",
+    "main.c841770a.js.map": "/car-rental-agency/static/js/main.c841770a.js.map"
   },
   "entrypoints": [
-    "static/css/main.7cda0caf.css",
-    "static/js/main.b6c53cb1.js"
+    "static/css/main.367de800.css",
+    "static/js/main.c841770a.js"
   ]
 }
